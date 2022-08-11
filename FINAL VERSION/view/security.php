@@ -33,6 +33,7 @@ if (isset($_SESSION['username'])) {
             <p class="success"><?php echo $_GET['success']; ?></p>
    
         <?php } ?>
+     <?php include "footer.php"?>
      
      <?php include "footer.php"?>
 
