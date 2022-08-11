@@ -32,6 +32,8 @@ include('../model/connect.php');
     }
 
     /*h3 {
+     
+     <?php include "footer.php"?>
         text-align: center;
         white-space: nowrap
     }
