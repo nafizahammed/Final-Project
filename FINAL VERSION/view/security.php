@@ -31,7 +31,10 @@ if (isset($_SESSION['username'])) {
 
         <?php if (isset($_GET['success'])) { ?>
             <p class="success"><?php echo $_GET['success']; ?></p>
+   
         <?php } ?>
+     
+     <?php include "footer.php"?>
 
         <label>Old Password</label>
         <input type="password" name="password" id="password" placeholder="Old Password">
