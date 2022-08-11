@@ -33,6 +33,7 @@
     border-radius: 10%;
     }
 </style>
+ <?php include "footer.php"?>
 
         
 
